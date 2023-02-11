@@ -29,7 +29,7 @@ addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
 
 // Lines of code need semicolons
-// addThreeNums is what calls the function; console.log logs it to the terminal  
+// addThreeNums is what calls the function, by having function return a value itself, only invocation has to occur.
   
   // EX 3:
   function makeFreshPesto() {
