@@ -46,14 +46,15 @@ addThreeNums(4, 2, 7);
 
   //  EX 4:
   function average(num1, num2) {
-  var sum = num1 + num2;
-      var avg = sum / 2;
-  
-  return avg;
-    }
+    var sum = num1 + num2;
+    var avg = sum / 2;
+    return avg;
+  }
 
-    console.log(average(1,2));
+  console.log(average(1,2));
 
 // Opening curly bracket is in wrong location, it begings with the function line of code.
 // Missing semicolon at return avg, return avg is its own line of code.
 // Added console.log(average(1,2)); to test the function with values, call the function with average, and log it to terminal with console.log.
+// Closing curly bracket needs to be lined up with function.
+// Code black has 1 indentation after function declaration, indents inside of code block are lined up.
